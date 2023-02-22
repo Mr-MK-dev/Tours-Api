@@ -1,0 +1,37 @@
+{
+  "name": "mk-app-api-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "testmk": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "users": "node ./utils/devServer.js",
+    "mk": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-MK-dev/Mk-App-API-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-MK-dev/Mk-App-API-/issues"
+  },
+  "homepage": "https://github.com/Mr-MK-dev/Mk-App-API-#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.26.0",
+    "socket.io": "^4.5.4",
+    "tedious": "^15.1.2",
+    "uuid": "^9.0.0"
+  }
+}
